@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-helmut",
+  "version": "1.0.0",
+  "description": "helmut's base JS ESLint config",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msn0/eslint-config-helmut.git"
+  },
+  "keywords": [
+    "helmut",
+    "eslint"
+  ],
+  "author": "Michał Jezierski <ambinanitelo@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0"
+  }
+}
