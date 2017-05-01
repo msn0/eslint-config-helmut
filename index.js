@@ -1,4 +1,5 @@
 module.exports = {
+    plugins: ['react'],
     rules: {
         'comma-dangle': ['warn', 'never'],
         'comma-spacing': ['warn', {
@@ -14,6 +15,8 @@ module.exports = {
         'no-use-before-define': ['warn', { functions: false }],
         'object-curly-spacing': ['warn', 'always'],
         'quotes': ['warn', 'single', { 'allowTemplateLiterals': true }],
+        'react/jsx-uses-react': 'error',
+        'react/jsx-uses-vars': 'error',
         'semi': ['warn', 'always'],
         'space-infix-ops': ['warn']
     },
