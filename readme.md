@@ -12,7 +12,7 @@ $ npm i eslint-config-helmut --save-dev
 
 Once the `eslint-config-helmut` is installed, specify `helmut` in the `extends` section of your `.eslintrc` configuration
 
-```json
+```js
 {
     extends: 'helmut'
 }
