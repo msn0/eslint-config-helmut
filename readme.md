@@ -14,7 +14,7 @@ Once the `eslint-config-helmut` is installed, specify `helmut` in the `extends` 
 
 ```json
 {
-    "extends": "helmut"
+    extends: 'helmut'
 }
 ```
 
