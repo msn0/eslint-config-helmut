@@ -4,7 +4,7 @@ This package provides Helmut's base JS `.eslintrc` as an extensible shared confi
 
 ## Installation
 
-```sh 
+```sh
 $ npm i eslint-config-helmut --save-dev
 ```
 
