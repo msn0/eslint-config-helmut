@@ -1,5 +1,7 @@
+'use strict';
+
 module.exports = {
-    extends: ['./native.js', './react.js'],
+    extends: ['./native.js'],
     env: {
         'es6': true,
         'node': true,

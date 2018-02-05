@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = {
     rules: {
         'arrow-spacing': 'warn',
@@ -23,11 +25,6 @@ module.exports = {
         'quotes': ['warn', 'single', { 'allowTemplateLiterals': true }],
         'prefer-const': 'warn',
         'space-in-parens': 'warn',
-        'react/jsx-curly-spacing': ['warn', { when: 'always', spacing: {
-            objectLiterals: 'never'
-        } }],
-        'react/jsx-uses-react': 'warn',
-        'react/jsx-uses-vars': 'warn',
         'semi': ['warn', 'always'],
         'space-before-blocks': 'warn',
         'space-infix-ops': 'warn'
