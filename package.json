@@ -16,7 +16,7 @@
   "author": "Michał Jezierski <ambinanitelo@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "babel-eslint": "^8.2.1",
-    "eslint": "^4.17.0"
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0"
   }
 }
