@@ -2,31 +2,31 @@
 
 module.exports = {
     rules: {
-        'arrow-spacing': 'warn',
-        'brace-style': 'warn',
-        'comma-dangle': 'warn',
-        'comma-spacing': ['warn', {
+        'arrow-spacing': 'error',
+        'brace-style': 'error',
+        'comma-dangle': 'error',
+        'comma-spacing': ['error', {
             'before': false,
             'after': true
         }],
-        'eqeqeq': 'warn',
-        'indent': ['warn', 4, { 'SwitchCase': 1 }],
-        'keyword-spacing': 'warn',
-        'key-spacing': 'warn',
-        'linebreak-style': ['warn', 'unix'],
-        'max-len': ['warn', 140, 4, { 'ignoreUrls': true }],
-        'no-multiple-empty-lines': ['warn', { max: 1, maxBOF: 0, maxEOF: 1 }],
-        'no-shadow': 'warn',
-        'no-undef': 'warn',
-        'no-unused-vars': 'warn',
-        'no-use-before-define': ['warn', { functions: false }],
-        'object-curly-spacing': ['warn', 'always'],
-        'object-shorthand': 'warn',
-        'quotes': ['warn', 'single', { 'allowTemplateLiterals': true }],
-        'prefer-const': 'warn',
-        'space-in-parens': 'warn',
-        'semi': ['warn', 'always'],
-        'space-before-blocks': 'warn',
-        'space-infix-ops': 'warn'
+        'eqeqeq': 'error',
+        'indent': ['error', 4, { 'SwitchCase': 1 }],
+        'keyword-spacing': 'error',
+        'key-spacing': 'error',
+        'linebreak-style': ['error', 'unix'],
+        'max-len': ['error', 140, 4, { 'ignoreUrls': true }],
+        'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0, maxEOF: 1 }],
+        'no-shadow': 'error',
+        'no-undef': 'error',
+        'no-unused-vars': 'error',
+        'no-use-before-define': ['error', { functions: false }],
+        'object-curly-spacing': ['error', 'always'],
+        'object-shorthand': 'error',
+        'quotes': ['error', 'single', { 'allowTemplateLiterals': true }],
+        'prefer-const': 'error',
+        'space-in-parens': 'error',
+        'semi': ['error', 'always'],
+        'space-before-blocks': 'error',
+        'space-infix-ops': 'error
     }
 };
