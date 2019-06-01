@@ -27,6 +27,6 @@ module.exports = {
         'space-in-parens': 'error',
         'semi': ['error', 'always'],
         'space-before-blocks': 'error',
-        'space-infix-ops': 'error
+        'space-infix-ops': 'error'
     }
 };
