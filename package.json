@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-helmut",
-  "version": "4.0.1",
+  "version": "4.1.0",
   "description": "Helmut's base JS ESLint config",
   "scripts": {
     "test": "eslint --fix ."
